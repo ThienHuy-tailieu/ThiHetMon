@@ -36,11 +36,11 @@ namespace QLBanSach
                 //goi phuong thuc tu lop DAO de them vao CSDL
                 sachDAO.Insert(sach);
 
-                lbthongbao.Text = "Thao tác thêm tour thành công";
+                lbthongbao.Text = "Thao tác thêm sách thành công";
 
             }catch (Exception ex)
             {
-                lbthongbao.Text = "Thao tác thêm tour thất bại";
+                lbthongbao.Text = "Thao tác thêm sách thất bại";
 
             }
 
